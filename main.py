@@ -10,6 +10,8 @@ from kmk.modules.capsword import CapsWord
 
 PlanckHW = KMKKeyboard()
 
+PlanckHW.debug_enabled = True
+
 PlanckHW.modules.append(Layers())
 PlanckHW.modules.append(CapsWord())
 PlanckHW.extensions.append(StringyKeymaps())
